@@ -13,6 +13,18 @@
 		565D703E1D4E30CA001832F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565D703C1D4E30CA001832F1 /* Main.storyboard */; };
 		565D70401D4E30CB001832F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 565D703F1D4E30CB001832F1 /* Assets.xcassets */; };
 		565D70431D4E30CB001832F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565D70411D4E30CB001832F1 /* LaunchScreen.storyboard */; };
+		565D70911D4E32C9001832F1 /* CWStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D70761D4E32C9001832F1 /* CWStarRateView.m */; };
+		565D70921D4E32C9001832F1 /* DMBaseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D70791D4E32C9001832F1 /* DMBaseTransition.m */; };
+		565D70931D4E32C9001832F1 /* DMScaleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D707B1D4E32C9001832F1 /* DMScaleTransition.m */; };
+		565D70941D4E32C9001832F1 /* UITableViewCell+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D707D1D4E32C9001832F1 /* UITableViewCell+JZExtension.m */; };
+		565D70951D4E32C9001832F1 /* UITableViewRowAction+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D707F1D4E32C9001832F1 /* UITableViewRowAction+JZExtension.m */; };
+		565D70961D4E32C9001832F1 /* UITableViewRowAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D70801D4E32C9001832F1 /* UITableViewRowAction.m */; };
+		565D70971D4E32C9001832F1 /* DataMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D70831D4E32C9001832F1 /* DataMatrix.m */; };
+		565D70991D4E32C9001832F1 /* QR_Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D70881D4E32C9001832F1 /* QR_Encode.m */; };
+		565D709A1D4E32C9001832F1 /* QREncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D708A1D4E32C9001832F1 /* QREncoder.m */; };
+		565D709B1D4E32C9001832F1 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D708E1D4E32C9001832F1 /* NSTimer+Addition.m */; };
+		565D709C1D4E32C9001832F1 /* VerticalCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D70901D4E32C9001832F1 /* VerticalCycleScrollView.m */; };
+		565D70A01D4E32FE001832F1 /* hz2py.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D709F1D4E32FE001832F1 /* hz2py.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,28 @@
 		565D703F1D4E30CB001832F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		565D70421D4E30CB001832F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		565D70441D4E30CB001832F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565D70751D4E32C9001832F1 /* CWStarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWStarRateView.h; sourceTree = "<group>"; };
+		565D70761D4E32C9001832F1 /* CWStarRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWStarRateView.m; sourceTree = "<group>"; };
+		565D70781D4E32C9001832F1 /* DMBaseTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBaseTransition.h; sourceTree = "<group>"; };
+		565D70791D4E32C9001832F1 /* DMBaseTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBaseTransition.m; sourceTree = "<group>"; };
+		565D707A1D4E32C9001832F1 /* DMScaleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMScaleTransition.h; sourceTree = "<group>"; };
+		565D707B1D4E32C9001832F1 /* DMScaleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMScaleTransition.m; sourceTree = "<group>"; };
+		565D707D1D4E32C9001832F1 /* UITableViewCell+JZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+JZExtension.m"; sourceTree = "<group>"; };
+		565D707E1D4E32C9001832F1 /* UITableViewRowAction+JZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewRowAction+JZExtension.h"; sourceTree = "<group>"; };
+		565D707F1D4E32C9001832F1 /* UITableViewRowAction+JZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewRowAction+JZExtension.m"; sourceTree = "<group>"; };
+		565D70801D4E32C9001832F1 /* UITableViewRowAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewRowAction.m; sourceTree = "<group>"; };
+		565D70821D4E32C9001832F1 /* DataMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataMatrix.h; sourceTree = "<group>"; };
+		565D70831D4E32C9001832F1 /* DataMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataMatrix.m; sourceTree = "<group>"; };
+		565D70871D4E32C9001832F1 /* QR_Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QR_Encode.h; sourceTree = "<group>"; };
+		565D70881D4E32C9001832F1 /* QR_Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QR_Encode.m; sourceTree = "<group>"; };
+		565D70891D4E32C9001832F1 /* QREncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QREncoder.h; sourceTree = "<group>"; };
+		565D708A1D4E32C9001832F1 /* QREncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QREncoder.m; sourceTree = "<group>"; };
+		565D708D1D4E32C9001832F1 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		565D708E1D4E32C9001832F1 /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		565D708F1D4E32C9001832F1 /* VerticalCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalCycleScrollView.h; sourceTree = "<group>"; };
+		565D70901D4E32C9001832F1 /* VerticalCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalCycleScrollView.m; sourceTree = "<group>"; };
+		565D709E1D4E32FE001832F1 /* hz2py.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hz2py.h; sourceTree = "<group>"; };
+		565D709F1D4E32FE001832F1 /* hz2py.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hz2py.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +76,7 @@
 		565D70271D4E30CA001832F1 = {
 			isa = PBXGroup;
 			children = (
+				565D70731D4E32C9001832F1 /* Frameworks */,
 				565D70321D4E30CA001832F1 /* TuhuThirdPartyAllIn */,
 				565D70311D4E30CA001832F1 /* Products */,
 			);
@@ -77,6 +112,83 @@
 				565D70341D4E30CA001832F1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		565D70731D4E32C9001832F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				565D709D1D4E32FE001832F1 /* hz2py */,
+				565D70741D4E32C9001832F1 /* CWStarRateView */,
+				565D70771D4E32C9001832F1 /* DMScaleTransition */,
+				565D707C1D4E32C9001832F1 /* JZTableViewRowAction */,
+				565D70811D4E32C9001832F1 /* QRCodeEncoder */,
+				565D708C1D4E32C9001832F1 /* VerticalCycleScrollView */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		565D70741D4E32C9001832F1 /* CWStarRateView */ = {
+			isa = PBXGroup;
+			children = (
+				565D70751D4E32C9001832F1 /* CWStarRateView.h */,
+				565D70761D4E32C9001832F1 /* CWStarRateView.m */,
+			);
+			path = CWStarRateView;
+			sourceTree = "<group>";
+		};
+		565D70771D4E32C9001832F1 /* DMScaleTransition */ = {
+			isa = PBXGroup;
+			children = (
+				565D70781D4E32C9001832F1 /* DMBaseTransition.h */,
+				565D70791D4E32C9001832F1 /* DMBaseTransition.m */,
+				565D707A1D4E32C9001832F1 /* DMScaleTransition.h */,
+				565D707B1D4E32C9001832F1 /* DMScaleTransition.m */,
+			);
+			path = DMScaleTransition;
+			sourceTree = "<group>";
+		};
+		565D707C1D4E32C9001832F1 /* JZTableViewRowAction */ = {
+			isa = PBXGroup;
+			children = (
+				565D707D1D4E32C9001832F1 /* UITableViewCell+JZExtension.m */,
+				565D707E1D4E32C9001832F1 /* UITableViewRowAction+JZExtension.h */,
+				565D707F1D4E32C9001832F1 /* UITableViewRowAction+JZExtension.m */,
+				565D70801D4E32C9001832F1 /* UITableViewRowAction.m */,
+			);
+			path = JZTableViewRowAction;
+			sourceTree = "<group>";
+		};
+		565D70811D4E32C9001832F1 /* QRCodeEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				565D70821D4E32C9001832F1 /* DataMatrix.h */,
+				565D70831D4E32C9001832F1 /* DataMatrix.m */,
+				565D70871D4E32C9001832F1 /* QR_Encode.h */,
+				565D70881D4E32C9001832F1 /* QR_Encode.m */,
+				565D70891D4E32C9001832F1 /* QREncoder.h */,
+				565D708A1D4E32C9001832F1 /* QREncoder.m */,
+			);
+			path = QRCodeEncoder;
+			sourceTree = "<group>";
+		};
+		565D708C1D4E32C9001832F1 /* VerticalCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				565D708D1D4E32C9001832F1 /* NSTimer+Addition.h */,
+				565D708E1D4E32C9001832F1 /* NSTimer+Addition.m */,
+				565D708F1D4E32C9001832F1 /* VerticalCycleScrollView.h */,
+				565D70901D4E32C9001832F1 /* VerticalCycleScrollView.m */,
+			);
+			path = VerticalCycleScrollView;
+			sourceTree = "<group>";
+		};
+		565D709D1D4E32FE001832F1 /* hz2py */ = {
+			isa = PBXGroup;
+			children = (
+				565D709E1D4E32FE001832F1 /* hz2py.h */,
+				565D709F1D4E32FE001832F1 /* hz2py.m */,
+			);
+			path = hz2py;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +261,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565D70951D4E32C9001832F1 /* UITableViewRowAction+JZExtension.m in Sources */,
+				565D709C1D4E32C9001832F1 /* VerticalCycleScrollView.m in Sources */,
+				565D70931D4E32C9001832F1 /* DMScaleTransition.m in Sources */,
+				565D70991D4E32C9001832F1 /* QR_Encode.m in Sources */,
 				565D703B1D4E30CA001832F1 /* ViewController.m in Sources */,
+				565D70961D4E32C9001832F1 /* UITableViewRowAction.m in Sources */,
 				565D70381D4E30CA001832F1 /* AppDelegate.m in Sources */,
+				565D709B1D4E32C9001832F1 /* NSTimer+Addition.m in Sources */,
+				565D70941D4E32C9001832F1 /* UITableViewCell+JZExtension.m in Sources */,
+				565D70A01D4E32FE001832F1 /* hz2py.m in Sources */,
+				565D70971D4E32C9001832F1 /* DataMatrix.m in Sources */,
+				565D70911D4E32C9001832F1 /* CWStarRateView.m in Sources */,
 				565D70351D4E30CA001832F1 /* main.m in Sources */,
+				565D709A1D4E32C9001832F1 /* QREncoder.m in Sources */,
+				565D70921D4E32C9001832F1 /* DMBaseTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
