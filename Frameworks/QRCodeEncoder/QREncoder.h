@@ -1,7 +1,6 @@
 
 
 #import <Foundation/Foundation.h>
-#import <CommonCrypto/CommonCryptor.h>
 #include "QR_Encode.h"
 #import "DataMatrix.h"
 #import <UIKit/UIKit.h>
