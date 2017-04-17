@@ -1,6 +1,6 @@
 
 #import "QREncoder.h"
-
+#import <CommonCrypto/CommonCryptor.h>
 
 @implementation QREncoder
 
